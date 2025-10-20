@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+*{
+  font-family: "Inter", sans-serif;
+}
+
+@layer components {
+  .btn-status {
+    @apply btn rounded-4xl border-0 gap-2;
+  }
+  .status-dot {
+    @apply inline-block rounded-full;
+    width: 10px; /* ~2.5 */
+    height: 10px;
+  }
+
+  /* Open */
+  .btn-status[data-status="Open"] {
+    background: #B9F8CF;     
+    color: #0F5132;          
+  }
+  .status-dot[data-status="Open"] {
+    background: #089A3C;    
+  }
+
+  /* In-Progress */
+  .btn-status[data-status="In-Progress"],
+  .btn-status[data-status="In Progress"] {
+    background: #F8F3B9;      
+    color: #9C7700;           
+  }
+  .status-dot[data-status="In-Progress"],
+  .status-dot[data-status="In Progress"] {
+    background: #D97706;      
+  }
+}
+
+
+
+

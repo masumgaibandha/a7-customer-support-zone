@@ -1,0 +1,110 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "User cannot access the account; password reset succeeds but login still fails.",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-10-15"
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Failed - Card Declined",
+    "description": "Checkout declines Visa ending 1234; bank confirms funds available.",
+    "customer": "Sarah Lee",
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2025-10-14"
+  },
+  {
+    "id": "#1003",
+    "title": "Unable to Download Invoice",
+    "description": "January invoice download button triggers no file; page briefly reloads.",
+    "customer": "Ahmed Khan",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-10-14"
+  },
+  {
+    "id": "#1004",
+    "title": "App Crash on Launch",
+    "description": "Android app closes immediately after splash screen on Android 13.",
+    "customer": "Priya Patel",
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2025-10-13"
+  },
+  {
+    "id": "#1005",
+    "title": "Two-Factor Authentication Issue",
+    "description": "2FA SMS codes not received; email codes also fail intermittently.",
+    "customer": "Carlos Diaz",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-10-13"
+  },
+  {
+    "id": "#1006",
+    "title": "Subscription Auto-Renewal",
+    "description": "Auto-renew toggle disabled in billing; customer wants to enable it.",
+    "customer": "Mei Chen",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-10-12"
+  },
+  {
+    "id": "#1007",
+    "title": "Payment Failed - Card Declined",
+    "description": "Multiple cards rejected at gateway step; error code DO_NOT_HONOR.",
+    "customer": "Alex Johnson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-10-12"
+  },
+  {
+    "id": "#1008",
+    "title": "Incorrect Billing Address",
+    "description": "Updated address not persisting; invoice still shows previous city.",
+    "customer": "Fatima Noor",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2025-10-11"
+  },
+  {
+    "id": "#1009",
+    "title": "Refund Not Processed",
+    "description": "Refund requested two weeks ago; payment not returned to card.",
+    "customer": "Elena Petrova",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-10-10"
+  },
+  {
+    "id": "#1010",
+    "title": "Unable to Update Profile Picture",
+    "description": "Avatar upload fails with generic error after selecting a JPG.",
+    "customer": "Liam O'Connor",
+    "priority": "LOW PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2025-10-09"
+  },
+  {
+    "id": "#1011",
+    "title": "Missing Order Confirmation Email",
+    "description": "Order placed successfully but no confirmation email received.",
+    "customer": "Hiro Tanaka",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-10-08"
+  },
+  {
+    "id": "#1012",
+    "title": "Unable to Download Invoice",
+    "description": "Invoice PDF returns 404 from billing page; retry still fails.",
+    "customer": "Amina Yusuf",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-10-08"
+  }
+]
